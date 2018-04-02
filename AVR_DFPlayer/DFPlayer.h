@@ -139,7 +139,7 @@ bool DFP_QueryCurrentTrack(void);
 bool DFP_QueryTrackInFolder(uint8_t folder);
 bool DFP_QueryFolderInStorage(void);
 
-void DFP_Init(void);
+void DFP_Initialize(void);
 void DFP_HandleMessage(void);
 
 #endif /* __DFPLAYER_H_ */

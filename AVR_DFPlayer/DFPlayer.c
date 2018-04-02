@@ -220,7 +220,7 @@ bool DFP_QueryFolderInStorage()
 	return DFP_SendQueryMessage(DFP_CMD_GET_NUM_STORAGE_FOLDERS, 0x00, 0x00);	
 }
 
-void DFP_Init()
+void DFP_Initialize()
 {
 	memset(RxBuffer, 0, sizeof(RxBuffer));
 	memset(TxBuffer, 0, sizeof(RxBuffer));
