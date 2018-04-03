@@ -1,5 +1,5 @@
 ﻿/*
- * _328P_SWUSART.h
+ * _328P_SWUART.h
  *
  * Created: 2018-04-02 오전 8:18:25
  *  Author: kiki
@@ -9,8 +9,8 @@
  */ 
 
 
-#ifndef __328P_SWUSART_H_
-#define __328P_SWUSART_H_
+#ifndef __328P_SWUART_H_
+#define __328P_SWUART_H_
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
@@ -36,4 +36,4 @@ void SWU_TxByte(uint8_t data);
 void SWU_RxBuffer(uint8_t *buffer, uint8_t length);
 void SWU_TxBuffer(uint8_t *buffer, uint8_t length);
 
-#endif /* __328P_SWUSART_H_ */
+#endif /* __328P_SWUART_H_ */

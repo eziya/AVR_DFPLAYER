@@ -134,10 +134,10 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="328P_SWUSART.c">
+    <Compile Include="328P_SWUART.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="328P_SWUSART.h">
+    <Compile Include="328P_SWUART.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="328P_USART.c">

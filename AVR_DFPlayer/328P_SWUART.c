@@ -1,5 +1,5 @@
 ﻿/*
-* _328P_SWUSART.c
+* _328P_SWUART.c
 *
 * Created: 2018-04-02 오전 8:18:37
 *  Author: kiki
@@ -8,7 +8,7 @@
  * Adding comments for better understanding
 */
 
-#include "328P_SWUSART.h"
+#include "328P_SWUART.h"
 
 volatile uint8_t sRxDone;				/* Ready to read Rx byte */
 
@@ -86,7 +86,7 @@ ISR(TIMER1_COMPA_vect)
 }
 
 /*****************************************************************************/
-/* Software USART Initialization											 */
+/* Software UART Initialization											 */
 /* Enable Output Compare A interrupt to send data							 */
 /* Enable Input Capture interrupt to receive data			 				 */
 /*****************************************************************************/
