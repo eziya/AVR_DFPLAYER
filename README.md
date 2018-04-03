@@ -8,8 +8,7 @@ https://www.dfrobot.com/wiki/index.php/DFPlayer_Mini_SKU:DFR0299<br><br>
 I used a reference manual from Flyron Technology Co., Ltd<br>
 (http://www.flyrontech.com/edownload/6.html)<br>
 
-Hardware USART was used to communicate with DFPlayer and software USART to communicate with PC as Atmega328p has only one USART port.<br>
-Software USART codes were written by danni and I modified some codes for better understanding and coding style.
+Hardware USART was used to communicate with DFPlayer and software USART to communicate with PC as Atmega328p has only one USART port. Software USART codes were written by danni and I modified some codes for better understanding and coding style.
 (https://community.atmel.com/projects/second-uart-software)
 
 This library was only tested with Atmega328p so may need to change hardware and software USART codes<br>
