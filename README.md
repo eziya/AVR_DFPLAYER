@@ -1,7 +1,7 @@
 # AVR_DFPLAYER
 DFPlayer library for AVR<br>
 
-This is a AVR library for DFPlayer. <br>
+This is an AVR library for DFPlayer. <br>
 DFPlayer product link<br>
 https://www.dfrobot.com/wiki/index.php/DFPlayer_Mini_SKU:DFR0299<br><br>
 
